@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+
+    <meta charset="utf-8">
+    <title>Digikala</title>
+</head>
+<body>
+<img src="images/topbaner.PNG" alt="">
+
+<img class="logo" src="images/digikala.jpeg" alt="">
+
+<header>
+
+    <div>
+        <input class="search search-right" placeholder="جستجو در دیجیکالا... " onkeyup="search()" type="search">
+        <img src="images/search.png">
+    </div>
+    <div class="log-in">
+        <i class="fal fa-user"></i>
+        <input class="btn-login" placeholder="ورود به حساب کاربری" type="">
+    </div>
+</header>
+<nav>
+    <div>
+        <ul>
+            <li><a href="#"><i class="fa fa-bars"></i> دسته‌بندی کالاها </a></li>
+            <li><a href="#">سوپرمارکت </a></li>
+            <li><a href="#">تخفیف ها و پیشنهادها</a></li>
+            <li><a href="#">سوالی دارید؟</a></li>
+            <li><a href="#">فروشنده شوید</a></li>
+        </ul>
+    </div>
+    <div class="category-location">
+        <img src="images/location.png"><span>لطفا شهر و استان خود را انتخاب کنید</span>
+    </div>
+
+</nav>
+<hr>
+
+<div class="row stalyrow">
+
+    <div class="col-2">
+        <div class="box-top">
+            <div><h5 class="box-header">دسته بندی نتایج</h5></div>
+            <div>
+                <ul>
+                    <li>کالای دیجیتال</li>
+                    <li>لپ تاپ</li>
+                    <li>لپ تاپ و الترابوک</li>
+                </ul>
+            </div>
+        </div>
+        <div class="box-top">
+            <div><h5 class="box-header">جستجو در نتایج:</h5></div>
+            <div>
+
+                <input class="search-side" placeholder="نام محصول یا برند مورد نظر را بنویسید " onkeyup="search()"
+                       type="search">
+            </div>
+        </div>
+        <div class="box-top">
+            <div><h5 class="box-header">برند</h5></div>
+            <div>
+                <input class="search-side" placeholder="جستجو نام برند ..." onkeyup="search()" type="search">
+            </div>
+        </div>
+    </div>
+
+    <div class="col-10">
+        <div class="row listing">
+            <ul>
+                <li><a href="#"> <i class="fa fa-align-right size-fa" aria-hidden="true"></i> مرتب سازی بر اساس :</a>
+                </li>
+                <li><a href="#">پربازدیدترین </a></li>
+                <li><a href="#"> پرفروش ترین</a></li>
+                <li><a href="#">محبوب ترین</a></li>
+                <li><a href="#">جدیدترین</a></li>
+                <li><a href="#">ارزان ترین</a></li>
+                <li><a href="#">گران ترین</a></li>
+                <li><a href="#">سریع ترین ارسال</a></li>
+            </ul>
+        </div>
+        <div class="row" id="products">
+        </div>
+    </div>
+   
+</div>
+<footer id="footer">
+    <div class="footer-top">
+        <h4><i class="fas fa-chevron-circle-up fa-sm"></i> برگشت به بالا</h4>
+    </div>
+    <div class="footer-features">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="feature-item">
+                    <img id="img-express" src="https://www.digikala.com/static/files/8f570b58.svg" alt="" class="img-fluid">
+                    <p>تحویل اکسپرس</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://www.digikala.com/static/files/a9286d2f.svg" alt="" class="img-fluid">
+                    <p>پشتیبانی ۲۴ ساعته</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://www.digikala.com/static/files/22414818.svg" alt="" class="img-fluid">
+                    <p>پرداخت در محل</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://www.digikala.com/static/files/514926b1.svg" alt="" class="img-fluid">
+                    <p>۷ روز ضمانت بازگشت</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://www.digikala.com/static/files/fdb293e6.svg" alt="" class="img-fluid">
+                    <p>ضمانت اصل‌بودن کالا</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="footer-links">
+        <div class="footer-links-help">
+            <h3>راهنمای خرید از دیجی‌کالا</h3>
+            <ul>
+                <li>نحوه ثبت سفارش</li>
+                <li>رویه ارسال سفارش</li>
+                <li>شیوه‌های پرداخت</li>
+            </ul>
+        </div>
+        <div class="footer-links-customers">
+            <h3>خدمات مشتریان</h3>
+            <ul>
+                <li>پاسخ به پرسش‌های متداول</li>
+                <li>رویه‌های بازگرداندن کالا</li>
+                <li>شرایط استفاده</li>
+                <li>حریم خصوصی</li>
+                <li>گزارش باگ</li>
+            </ul>
+        </div>
+        <div class="footer-links-digikala">
+            <h3>با دیجی‌کالا</h3>
+            <ul>
+                <li>اتاق خبر دیجی‌کالا</li>
+                <li>فروش در دیجی‌کالا</li>
+                <li>فرصت‌های شغلی</li>
+                <li>تماس با دیجی‌کالا</li>
+                <li>درباره دیجی‌کالا</li>
+            </ul>
+        </div>
+        <div class="footer-links-left">
+            <p>از تخفیف‌ها و جدیدترین‌های دیجی‌کالا باخبر شوید:</p>
+
+            <div class="newsletter">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="آدرس ایمیل خود را وارد کنید" aria-label="" aria-describedby="basic-addon1">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">ارسال</button>
+                    </div>
+                </div>
+
+                <p>دیجی‌کالا را در شبکه‌های اجتماعی دنبال کنید:</p>
+                <div class="social">
+                    <i class="fab fa-linkedin"></i>
+                    <img src="https://seeklogo.com/images/A/aparat-logo-E058915B14-seeklogo.com.png" alt="">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="footer-contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-7 footer-contact-right">
+                    <h5>هفت روز هفته ، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم</h5>
+                    <span>شماره تماس :
+                        ۶۱۹۳۰۰۰۰ - ۰۲۱
+                        ،
+                        ۹۵۱۱۹۰۹۵ - ۰۲۱
+                        </span>
+                    <span>
+                        آدرس ایمیل :
+                        info@digikala.com</span>
+                </div>
+                <div class="col-5 footer-contact-left">
+                    <a href="">
+                        <img alt="playstore" width="150px" src="https://www.digikala.com/static/files/dd753f51.png">
+                    </a>
+                    <a href="">
+                        <img alt="" width="150px" src="https://www.digikala.com/static/files/1090a120.png">
+                    </a>
+                    <a href="">
+                        <img alt="" width="150px" src="https://www.digikala.com/static/files/c4abfc14.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+
+
+        <div class="footer-logos">
+            <div class="footer-logos-item">
+                <img src="https://www.digikala.com/static/files/0b0d3f0a.svg" alt="" class="img-fluid">
+            </div>
+            <div class="footer-logos-item">
+                <img src="https://www.digikala.com/static/files/964edb61.svg" alt="" class="img-fluid">
+            </div>
+            <div class="footer-logos-item">
+                <img src="https://www.digikala.com/static/files/6b24b899.svg" alt="" class="img-fluid">
+            </div>
+            <div class="footer-logos-item">
+                <img src="https://www.digikala.com/static/files/c8cfebe7.svg" alt="" class="img-fluid">
+            </div>
+            <div class="footer-logos-item">
+                <img src="https://www.digikala.com/static/files/0feb6326.svg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="footer-copyright">
+            استفاده از مطالب فروشگاه اینترنتی دیجی‌کالا فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است. کلیه حقوق این سایت متعلق به شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا) می‌باشد.
+        </div>
+    </div>
+</footer>
+
+
+<script src="category.js"></script>
+</body>
+</html>
+
+

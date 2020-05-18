@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="220ef301-5fc4-4bb4-8be2-8fbc2d735394" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ATM/ATM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ATM/ATM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Api.axiom/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Api.axiom/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Api.axiom/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/checkout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../person/person.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../register/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timer/timer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../timer/timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todofi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todofinal/todofinal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todofinal/todofinal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../T2/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../T2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/todo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/todo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo/todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../todo/todo.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1VefvKTj63znyk2GykSDFpxGklq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../T2/index.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="220ef301-5fc4-4bb4-8be2-8fbc2d735394" name="Default Changelist" comment="" />
+      <created>1577618710747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577618710747</updated>
+      <workItem from="1577618712143" duration="8364000" />
+      <workItem from="1577681978804" duration="11250000" />
+      <workItem from="1577769385207" duration="9931000" />
+      <workItem from="1577787775401" duration="9694000" />
+      <workItem from="1578062077729" duration="8890000" />
+      <workItem from="1578330764262" duration="107000" />
+      <workItem from="1578917608882" duration="271000" />
+      <workItem from="1579600342933" duration="946000" />
+      <workItem from="1579632482323" duration="2857000" />
+      <workItem from="1579677331415" duration="13324000" />
+      <workItem from="1581156078651" duration="5086000" />
+      <workItem from="1581188401664" duration="2209000" />
+      <workItem from="1581264364411" duration="3919000" />
+      <workItem from="1582444464978" duration="717000" />
+      <workItem from="1582472432650" duration="1492000" />
+      <workItem from="1582648927560" duration="2968000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="111" key="FileChooserDialogImpl" timestamp="1581264760939">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="462" y="111" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1581264760939" />
+    <state x="186" y="15" key="SettingsEditor" timestamp="1577789029056">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="186" y="15" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1577789029056" />
+    <state x="339" y="165" key="run.anything.popup" timestamp="1577622241559">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1577622241559" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/checkout.html</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
